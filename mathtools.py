@@ -10,7 +10,12 @@ def isPrime(n):
         if n % i == 0:
             return False
     return True
+<<<<<<< HEAD
     
+=======
+
+
+>>>>>>> cad73aa5df89a79ce157fe0daac6f88dcc4f3c3a
 def factorial(n):
     '''Returns the factorial of a number'''
     if n == 0:
@@ -46,3 +51,4 @@ def geometric(a, ratio, n):
        n is the number of elements in the sequence.'''
     #Use the sum formula:
     return a*(1-ratio**n)/(1-ratio)
+
